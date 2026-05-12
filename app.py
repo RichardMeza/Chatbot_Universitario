@@ -13,7 +13,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 df = pd.read_csv(
     "base_chatbot_universitario.csv",
-    sep=";"
+    sep=";",
+    encoding="latin1"
 )
 
 # =====================================================
