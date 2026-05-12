@@ -1,0 +1,124 @@
+id;pregunta;respuesta;categoria;universidad
+1;¿Cuándo inicia el proceso de admisión?;El proceso de admisión inicia según el cronograma publicado por la oficina de admisión.;Admisión;Universidad Demo del Pacífico
+2;¿Dónde puedo inscribirme al examen de admisión?;La inscripción se realiza en la plataforma de admisión de la universidad.;Admisión;Universidad Demo del Pacífico
+3;¿Qué documentos necesito para postular?;Necesitas documento de identidad, fotografía actual y constancia o certificado de estudios.;Admisión;Universidad Demo del Pacífico
+4;¿Cuánto cuesta la inscripción al examen?;El costo de inscripción depende de la modalidad de admisión vigente.;Admisión;Universidad Demo del Pacífico
+5;¿Hay modalidad para primeros puestos?;Sí, la universidad puede ofrecer modalidad especial para primeros puestos según reglamento.;Admisión;Universidad Demo del Pacífico
+6;¿Puedo cambiar mi modalidad de admisión?;El cambio de modalidad debe solicitarse antes del cierre de inscripciones.;Admisión;Universidad Demo del Pacífico
+7;¿Dónde veo los resultados del examen?;Los resultados se publican en la plataforma oficial de admisión.;Admisión;Universidad Demo del Pacífico
+8;¿Qué pasa si no alcanzo vacante?;Puedes postular en el siguiente proceso de admisión o revisar otras modalidades disponibles.;Admisión;Universidad Demo del Pacífico
+9;¿El examen es presencial o virtual?;La modalidad del examen se comunica en el cronograma oficial.;Admisión;Universidad Demo del Pacífico
+10;¿Cómo recupero mi código de postulante?;Debes ingresar a la plataforma de admisión o comunicarte con la oficina correspondiente.;Admisión;Universidad Demo del Pacífico
+11;¿Cuándo empieza la matrícula?;La matrícula inicia según el calendario académico vigente.;Matrícula;Universidad Demo del Pacífico
+12;¿Dónde me matriculo?;Debes ingresar al portal del estudiante y seleccionar la opción de matrícula.;Matrícula;Universidad Demo del Pacífico
+13;¿Puedo modificar mi matrícula?;Sí, puedes modificarla durante el periodo de rectificación establecido.;Matrícula;Universidad Demo del Pacífico
+14;¿Qué pasa si no me matriculo a tiempo?;Podrías acceder a matrícula extemporánea si el calendario académico lo permite.;Matrícula;Universidad Demo del Pacífico
+15;¿Cuántos créditos puedo llevar?;El número máximo de créditos depende del reglamento académico y tu rendimiento.;Matrícula;Universidad Demo del Pacífico
+16;¿Puedo llevar menos créditos?;Sí, siempre que cumplas con la carga mínima establecida por la universidad.;Matrícula;Universidad Demo del Pacífico
+17;¿Qué significa curso cerrado?;Significa que el curso ya completó el número máximo de vacantes.;Matrícula;Universidad Demo del Pacífico
+18;¿Dónde veo los cursos disponibles?;La oferta académica se visualiza en el portal del estudiante.;Matrícula;Universidad Demo del Pacífico
+19;¿Puedo matricularme con deuda?;La matrícula puede estar restringida si existen pagos pendientes.;Matrícula;Universidad Demo del Pacífico
+20;¿Cómo retiro un curso matriculado?;Debes solicitar el retiro dentro del plazo establecido en el calendario académico.;Matrícula;Universidad Demo del Pacífico
+21;¿Dónde pago la pensión?;El pago se realiza mediante los canales autorizados por la universidad.;Pagos;Universidad Demo del Pacífico
+22;¿Cómo veo mi deuda pendiente?;Puedes revisar tus pagos pendientes en el portal del estudiante.;Pagos;Universidad Demo del Pacífico
+23;¿Puedo pagar en cuotas?;La universidad puede ofrecer fraccionamiento según política financiera vigente.;Pagos;Universidad Demo del Pacífico
+24;¿Dónde descargo mi boleta de pago?;La boleta se descarga desde la sección de pagos del portal.;Pagos;Universidad Demo del Pacífico
+25;¿Qué pasa si pago fuera de fecha?;Podrían generarse recargos o restricciones administrativas.;Pagos;Universidad Demo del Pacífico
+26;¿Aceptan pagos por banca móvil?;Sí, si el banco se encuentra dentro de los canales autorizados.;Pagos;Universidad Demo del Pacífico
+27;¿Cómo registro un pago no reconocido?;Debes enviar el comprobante al área de tesorería para su validación.;Pagos;Universidad Demo del Pacífico
+28;¿Puedo solicitar reprogramación de pago?;Sí, mediante una solicitud dirigida al área financiera.;Pagos;Universidad Demo del Pacífico
+29;¿Dónde veo el cronograma de pensiones?;El cronograma se publica en la plataforma financiera o portal institucional.;Pagos;Universidad Demo del Pacífico
+30;¿Qué hago si se duplicó mi pago?;Debes reportarlo a tesorería adjuntando ambos comprobantes.;Pagos;Universidad Demo del Pacífico
+31;¿Dónde veo mi horario de clases?;Tu horario se encuentra disponible en el portal del estudiante.;Horarios;Universidad Demo del Pacífico
+32;¿Cuándo se publican los horarios?;Los horarios se publican antes del inicio de la matrícula.;Horarios;Universidad Demo del Pacífico
+33;¿Puedo cambiar de sección?;El cambio de sección depende de la disponibilidad de vacantes.;Horarios;Universidad Demo del Pacífico
+34;¿Qué hago si se cruzan mis horarios?;Debes modificar tu matrícula o solicitar orientación académica.;Horarios;Universidad Demo del Pacífico
+35;¿Dónde veo el aula asignada?;El aula aparece en el detalle del horario del curso.;Horarios;Universidad Demo del Pacífico
+36;¿Los horarios pueden cambiar?;Sí, pueden actualizarse por razones académicas o administrativas.;Horarios;Universidad Demo del Pacífico
+37;¿Cómo sé si una clase es virtual?;La modalidad se indica en el horario o en el aula virtual.;Horarios;Universidad Demo del Pacífico
+38;¿Dónde consulto los horarios de laboratorio?;Los horarios de laboratorio se muestran junto al curso correspondiente.;Horarios;Universidad Demo del Pacífico
+39;¿Puedo asistir a otra sección?;Solo puedes asistir a la sección en la que estás matriculado, salvo autorización.;Horarios;Universidad Demo del Pacífico
+40;¿Dónde veo mis horarios?;Los horarios están disponibles en el portal académico;Horarios;Universidad Demo del Pacífico
+41;¿Cómo consulto mis horarios?;Puedes revisar tus horarios en la intranet universitaria;Horarios;Universidad Demo del Pacífico
+42;¿Dónde aparecen mis cursos?;Tus cursos y horarios aparecen en el sistema académico;Horarios;Universidad Demo del Pacífico
+43;¿A quién consulto por problemas con mi horario?;Debes comunicarte con secretaría académica o coordinación de carrera.;Horarios;Universidad Demo del Pacífico
+44;¿Dónde veo el sílabo del curso?;El sílabo se publica en el aula virtual o en el portal académico.;Cursos;Universidad Demo del Pacífico
+45;¿Qué pasa si desapruebo un curso?;Debes volver a llevarlo según las reglas de matrícula y prerrequisitos.;Cursos;Universidad Demo del Pacífico
+46;¿Cómo sé los prerrequisitos de un curso?;Los prerrequisitos figuran en el plan de estudios de la carrera.;Cursos;Universidad Demo del Pacífico
+47;¿Puedo adelantar cursos?;Puedes adelantar cursos si cumples los prerrequisitos y hay vacantes disponibles.;Cursos;Universidad Demo del Pacífico
+48;¿Dónde veo mis notas?;Tus notas se visualizan en el portal del estudiante.;Cursos;Universidad Demo del Pacífico
+49;¿Puedo solicitar revisión de nota?;Sí, dentro del plazo establecido por el reglamento académico.;Cursos;Universidad Demo del Pacífico
+50;¿Qué es un curso electivo?;Es un curso que el estudiante elige dentro de un grupo de opciones del plan de estudios.;Cursos;Universidad Demo del Pacífico
+51;¿Cómo retiro un curso?;Debes presentar la solicitud dentro del periodo permitido.;Cursos;Universidad Demo del Pacífico
+52;¿Cuándo se abren los cursos de verano?;La oferta de verano se publica según disponibilidad académica.;Cursos;Universidad Demo del Pacífico
+53;¿Puedo llevar cursos de otra carrera?;Sí, si el reglamento lo permite y existe autorización académica.;Cursos;Universidad Demo del Pacífico
+54;¿Cuál es el horario de biblioteca?;El horario de atención se publica en la página de biblioteca.;Biblioteca;Universidad Demo del Pacífico
+55;¿Cómo solicito un libro?;Puedes solicitarlo con tu carné universitario o mediante el catálogo virtual.;Biblioteca;Universidad Demo del Pacífico
+56;¿Puedo renovar un préstamo?;Sí, si el libro no ha sido reservado por otro usuario.;Biblioteca;Universidad Demo del Pacífico
+57;¿Qué pasa si devuelvo tarde un libro?;Se aplican sanciones según el reglamento de biblioteca.;Biblioteca;Universidad Demo del Pacífico
+58;¿Dónde encuentro libros digitales?;Los libros digitales están disponibles en las bases de datos suscritas.;Biblioteca;Universidad Demo del Pacífico
+59;¿Cómo ingreso a las bases de datos?;Debes acceder con tus credenciales institucionales.;Biblioteca;Universidad Demo del Pacífico
+60;¿La biblioteca ofrece salas de estudio?;Sí, según disponibilidad y reserva previa.;Biblioteca;Universidad Demo del Pacífico
+61;¿Puedo imprimir en biblioteca?;Algunas sedes ofrecen servicio de impresión o derivan a centros autorizados.;Biblioteca;Universidad Demo del Pacífico
+62;¿Cómo busco una tesis?;Puedes buscar tesis en el repositorio institucional.;Biblioteca;Universidad Demo del Pacífico
+63;¿Puedo usar biblioteca si soy egresado?;El acceso para egresados depende de las políticas institucionales.;Biblioteca;Universidad Demo del Pacífico
+64;¿Cómo solicito una constancia de estudios?;Debes ingresar al portal de trámites y registrar la solicitud.;Trámites;Universidad Demo del Pacífico
+65;¿Cuánto demora una constancia?;El tiempo de atención depende del tipo de documento solicitado.;Trámites;Universidad Demo del Pacífico
+66;¿Dónde solicito mi récord académico?;El récord académico se solicita en el portal del estudiante o secretaría académica.;Trámites;Universidad Demo del Pacífico
+67;¿Cómo pido carta de presentación?;Debes registrar la solicitud indicando la institución destinataria.;Trámites;Universidad Demo del Pacífico
+68;¿Puedo hacer trámites de manera virtual?;Sí, muchos trámites se realizan mediante la plataforma institucional.;Trámites;Universidad Demo del Pacífico
+69;¿Dónde veo el estado de mi trámite?;El estado se consulta en el sistema de trámites.;Trámites;Universidad Demo del Pacífico
+70;¿Qué hago si mi trámite fue observado?;Debes corregir la información o adjuntar los documentos solicitados.;Trámites;Universidad Demo del Pacífico
+71;¿Cómo solicito duplicado de carné?;Debes ingresar una solicitud y pagar la tasa correspondiente.;Trámites;Universidad Demo del Pacífico
+72;¿Puedo autorizar a otra persona a recoger documentos?;Sí, mediante carta poder simple o el procedimiento indicado por la universidad.;Trámites;Universidad Demo del Pacífico
+73;¿Dónde consulto las tasas administrativas?;Las tasas se publican en el tarifario oficial de la universidad.;Trámites;Universidad Demo del Pacífico
+74;¿Cómo ingreso al aula virtual?;Debes acceder con tu usuario y contraseña institucional.;Aula virtual;Universidad Demo del Pacífico
+75;¿Qué hago si olvidé mi contraseña?;Debes usar la opción de recuperación o contactar soporte técnico.;Aula virtual;Universidad Demo del Pacífico
+76;¿Por qué no aparece mi curso en el aula virtual?;Puede deberse a demora en la sincronización o a un problema de matrícula.;Aula virtual;Universidad Demo del Pacífico
+77;¿Dónde subo mis tareas?;Las tareas se suben en la actividad indicada por el docente.;Aula virtual;Universidad Demo del Pacífico
+78;¿Cómo veo mis calificaciones en el aula virtual?;Puedes revisarlas en la sección de calificaciones del curso.;Aula virtual;Universidad Demo del Pacífico
+79;¿Puedo ingresar desde el celular?;Sí, si la plataforma cuenta con versión móvil o aplicación.;Aula virtual;Universidad Demo del Pacífico
+80;¿Qué hago si no puedo entrar a una clase virtual?;Debes revisar tu conexión y comunicarte con soporte o el docente.;Aula virtual;Universidad Demo del Pacífico
+81;¿Dónde encuentro el enlace de videoclase?;El enlace suele publicarse en el aula virtual del curso.;Aula virtual;Universidad Demo del Pacífico
+82;¿Cómo reporto un error del aula virtual?;Debes enviar captura y descripción del problema a soporte técnico.;Aula virtual;Universidad Demo del Pacífico
+83;¿El aula virtual guarda mis entregas?;Sí, las entregas quedan registradas con fecha y hora.;Aula virtual;Universidad Demo del Pacífico
+84;¿La universidad ofrece becas?;Sí, existen becas y beneficios sujetos a evaluación.;Becas;Universidad Demo del Pacífico
+85;¿Cómo postulo a una beca?;Debes revisar la convocatoria y presentar los documentos solicitados.;Becas;Universidad Demo del Pacífico
+86;¿Qué requisitos piden para beca?;Los requisitos dependen del tipo de beca y del rendimiento académico.;Becas;Universidad Demo del Pacífico
+87;¿Dónde veo los resultados de becas?;Los resultados se publican en el área de bienestar o plataforma correspondiente.;Becas;Universidad Demo del Pacífico
+88;¿Puedo perder una beca?;Sí, si no cumples las condiciones académicas o administrativas.;Becas;Universidad Demo del Pacífico
+89;¿Hay becas por alto rendimiento?;Sí, pueden existir beneficios por mérito académico.;Becas;Universidad Demo del Pacífico
+90;¿Hay apoyo socioeconómico?;La universidad puede ofrecer apoyo previa evaluación socioeconómica.;Becas;Universidad Demo del Pacífico
+91;¿Cuándo se abre la convocatoria de becas?;La convocatoria se publica según el calendario de bienestar universitario.;Becas;Universidad Demo del Pacífico
+92;¿Puedo apelar si no obtuve beca?;Podrías presentar reconsideración si el procedimiento lo permite.;Becas;Universidad Demo del Pacífico
+93;¿La beca cubre matrícula y pensión?;La cobertura depende del tipo de beneficio otorgado.;Becas;Universidad Demo del Pacífico
+94;¿La universidad ofrece atención psicológica?;Sí, bienestar universitario brinda orientación psicológica a los estudiantes.;Bienestar universitario;Universidad Demo del Pacífico
+95;¿Dónde solicito atención médica?;Debes comunicarte con el área de bienestar o tópico universitario.;Bienestar universitario;Universidad Demo del Pacífico
+96;¿Hay talleres deportivos?;Sí, la universidad puede ofrecer talleres deportivos por ciclo académico.;Bienestar universitario;Universidad Demo del Pacífico
+97;¿Cómo participo en actividades culturales?;Debes inscribirte en las convocatorias publicadas por bienestar.;Bienestar universitario;Universidad Demo del Pacífico
+98;¿Qué servicios brinda bienestar universitario?;Brinda orientación, actividades deportivas, culturales y apoyo estudiantil.;Bienestar universitario;Universidad Demo del Pacífico
+99;¿Hay seguro estudiantil?;El seguro depende de las políticas institucionales vigentes.;Bienestar universitario;Universidad Demo del Pacífico
+100;¿Dónde reporto una situación de emergencia?;Debes comunicarte con seguridad, bienestar o los canales oficiales de emergencia.;Bienestar universitario;Universidad Demo del Pacífico
+101;¿Hay tutoría para estudiantes?;Sí, puede existir tutoría académica y acompañamiento estudiantil.;Bienestar universitario;Universidad Demo del Pacífico
+102;¿Puedo recibir orientación vocacional?;Sí, si el servicio está disponible en bienestar universitario.;Bienestar universitario;Universidad Demo del Pacífico
+103;¿Cómo me inscribo a talleres?;La inscripción se realiza mediante formularios o plataforma institucional.;Bienestar universitario;Universidad Demo del Pacífico
+104;¿Qué modalidades de titulación existen?;Las modalidades pueden incluir tesis, trabajo de suficiencia profesional u otras según reglamento.;Titulación;Universidad Demo del Pacífico
+105;¿Cómo inicio el trámite de bachiller?;Debes cumplir los requisitos académicos y registrar la solicitud correspondiente.;Titulación;Universidad Demo del Pacífico
+106;¿Cómo inicio el trámite de título?;Debes cumplir los requisitos de grado, modalidad y documentación exigida.;Titulación;Universidad Demo del Pacífico
+107;¿Dónde presento mi tesis?;La tesis se presenta ante la unidad académica correspondiente.;Titulación;Universidad Demo del Pacífico
+108;¿Cuánto demora el trámite de grado?;El tiempo depende de la revisión documentaria y aprobación de las instancias académicas.;Titulación;Universidad Demo del Pacífico
+109;¿Necesito constancia de idioma para titularme?;Depende de los requisitos establecidos en el reglamento vigente.;Titulación;Universidad Demo del Pacífico
+110;¿Cómo solicito fecha de sustentación?;Debes coordinar con tu facultad y cumplir los requisitos previos.;Titulación;Universidad Demo del Pacífico
+111;¿Dónde reviso el estado de mi grado?;Puedes consultarlo en el sistema de grados y títulos o secretaría académica.;Titulación;Universidad Demo del Pacífico
+112;¿Qué documentos necesito para bachiller?;Los documentos dependen del reglamento, pagos y constancias exigidas.;Titulación;Universidad Demo del Pacífico
+113;¿Puedo titularme si tengo deuda?;Normalmente debes no tener deudas pendientes para continuar el trámite.;Titulación;Universidad Demo del Pacífico
+114;¿A quién escribo si no funciona mi correo institucional?;Debes comunicarte con soporte técnico indicando tu código de estudiante.;Soporte técnico;Universidad Demo del Pacífico
+115;¿Cómo recupero mi correo universitario?;Debes solicitar recuperación de acceso a soporte técnico.;Soporte técnico;Universidad Demo del Pacífico
+116;¿Qué hago si el portal no carga?;Verifica tu conexión y reporta el problema con captura de pantalla.;Soporte técnico;Universidad Demo del Pacífico
+117;¿Cómo actualizo mis datos personales?;Debes ingresar al portal o solicitar actualización a registros académicos.;Soporte técnico;Universidad Demo del Pacífico
+118;¿Dónde reporto problemas con mi contraseña?;Debes usar recuperación de contraseña o contactar soporte.;Soporte técnico;Universidad Demo del Pacífico
+119;¿Puedo cambiar mi correo alternativo?;Sí, mediante actualización de datos en el sistema institucional.;Soporte técnico;Universidad Demo del Pacífico
+120;¿Cómo activo mi cuenta institucional?;La activación se realiza con las credenciales enviadas por la universidad.;Soporte técnico;Universidad Demo del Pacífico
+121;¿Qué hago si mi usuario está bloqueado?;Debes comunicarte con soporte técnico para validar tu identidad.;Soporte técnico;Universidad Demo del Pacífico
+122;¿Hay mesa de ayuda virtual?;Sí, puede existir mesa de ayuda mediante correo, formulario o chat institucional.;Soporte técnico;Universidad Demo del Pacífico
+123;¿Cuánto demora soporte en responder?;El tiempo de respuesta depende de la carga de solicitudes.;Soporte técnico;Universidad Demo del Pacífico
