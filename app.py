@@ -8,6 +8,17 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 # =====================================================
+# CONFIGURACIÓN DE PÁGINA
+# =====================================================
+
+st.set_page_config(
+    page_title="Chatbot Universitario",
+    page_icon="🎓",
+    layout="centered"
+)
+
+
+# =====================================================
 # CARGAR DATA
 # =====================================================
 
@@ -17,13 +28,14 @@ df = pd.read_csv(
     encoding="latin1"
 )
 
+
 # =====================================================
-# LIMPIEZA
+# FUNCIÓN DE LIMPIEZA DE TEXTO
 # =====================================================
 
 def limpiar_texto(texto):
 
-    texto = texto.lower()
+    texto = str(texto).lower()
 
     texto = unicodedata.normalize("NFD", texto)
     texto = texto.encode("ascii", "ignore").decode("utf-8")
@@ -36,7 +48,7 @@ def limpiar_texto(texto):
 
 
 # =====================================================
-# LIMPIAR PREGUNTAS
+# PREPARACIÓN DE DATA
 # =====================================================
 
 df["pregunta_limpia"] = df["pregunta"].apply(limpiar_texto)
@@ -47,53 +59,49 @@ df["pregunta_limpia"] = df["pregunta"].apply(limpiar_texto)
 # =====================================================
 
 vectorizador = TfidfVectorizer()
-
 matriz_tfidf = vectorizador.fit_transform(df["pregunta_limpia"])
 
 
 # =====================================================
-# FUNCIÓN CHATBOT
+# FUNCIÓN DEL CHATBOT
 # =====================================================
 
 def responder_chatbot(pregunta_usuario):
 
     pregunta_limpia = limpiar_texto(pregunta_usuario)
 
-    # SALUDOS
     saludos = [
         "hola",
         "buenas",
         "buenos dias",
         "buenas tardes",
-        "buenas noches"
+        "buenas noches",
+        "holi"
     ]
 
     if pregunta_limpia in saludos:
         return "Hola, soy el chatbot universitario. ¿En qué puedo ayudarte?"
 
-
-    # DESPEDIDAS
     despedidas = [
         "adios",
         "hasta luego",
-        "bye"
+        "nos vemos",
+        "bye",
+        "chao"
     ]
 
     if pregunta_limpia in despedidas:
         return "Hasta luego. Que tengas un excelente día."
 
-
-    # AGRADECIMIENTO
     agradecimientos = [
         "gracias",
-        "muchas gracias"
+        "muchas gracias",
+        "te agradezco"
     ]
 
     if pregunta_limpia in agradecimientos:
         return "Con gusto. Estoy para ayudarte."
 
-
-    # TF-IDF
     vector_pregunta = vectorizador.transform([pregunta_limpia])
 
     similitudes = cosine_similarity(vector_pregunta, matriz_tfidf)
@@ -111,29 +119,44 @@ def responder_chatbot(pregunta_usuario):
 
 
 # =====================================================
-# STREAMLIT
+# INTERFAZ STREAMLIT TIPO CHAT
 # =====================================================
-
-st.set_page_config(
-    page_title="Chatbot Universitario",
-    page_icon="🎓"
-)
 
 st.title("🎓 Chatbot Universitario")
 
-st.write("Realiza una consulta académica.")
+st.write("Realiza una consulta académica. El chatbot responderá automáticamente según la base de preguntas frecuentes.")
 
-pregunta_usuario = st.text_input(
-    "Escribe tu pregunta:"
-)
+# Crear historial de conversación
+if "mensajes" not in st.session_state:
+    st.session_state.mensajes = []
 
-if st.button("Consultar"):
+# Mensaje inicial del chatbot
+if len(st.session_state.mensajes) == 0:
+    st.session_state.mensajes.append({
+        "rol": "assistant",
+        "contenido": "Hola, soy el chatbot universitario. Puedes hacerme consultas sobre matrícula, pagos, horarios, trámites, cursos, becas y servicios académicos."
+    })
 
-    if pregunta_usuario.strip() == "":
-        st.warning("Por favor ingresa una pregunta.")
+# Mostrar historial
+for mensaje in st.session_state.mensajes:
+    with st.chat_message(mensaje["rol"]):
+        st.write(mensaje["contenido"])
 
-    else:
+# Entrada del usuario
+pregunta_usuario = st.chat_input("Escribe tu pregunta aquí...")
 
-        respuesta = responder_chatbot(pregunta_usuario)
+if pregunta_usuario:
 
-        st.success(respuesta)
+    st.session_state.mensajes.append({
+        "rol": "user",
+        "contenido": pregunta_usuario
+    })
+
+    respuesta = responder_chatbot(pregunta_usuario)
+
+    st.session_state.mensajes.append({
+        "rol": "assistant",
+        "contenido": respuesta
+    })
+
+    st.rerun()
